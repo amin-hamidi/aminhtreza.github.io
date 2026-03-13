@@ -4,44 +4,11 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://aminhamidi.com/</loc>
-  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
+  <lastmod>2026-03-12</lastmod>
   <priority>1.00</priority>
 </url>
-<url>
-  <loc>https://aminhamidi.com/index.html</loc>
-  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://aminhamidi.com/resume.html</loc>
-  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>https://aminhamidi.com/portfolio.html</loc>
-  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>https://aminhamidi.com/myApps.html</loc>
-  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://aminhamidi.com/about.html</loc>
-  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>https://aminhamidi.com/contact.html</loc>
-  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
-  <priority>0.30</priority>
-</url>
-
 
 </urlset>

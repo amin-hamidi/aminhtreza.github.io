@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aminhamidi.com/sitemap.xml
+
+Disallow: /old-site/
+Disallow: /yalda/

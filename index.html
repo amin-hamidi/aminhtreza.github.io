@@ -1,128 +1,171 @@
 <!DOCTYPE html>
-
 <html lang="en-US">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="google-site-verification" content="PD6ltglDmD-CbK2CDMeLQSeopM4dk_XNwdO3dWY8C2M" /><!--Verify: Google Search Console-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Media Queries-->
-        <meta name="keywords" content="Amin Hamidi, Amin, Aminreza, Hamiditabar, Amean, Hamedi, Amin Hamidi Developer, Amin tamu, Amin Hamidi tamu">
-        <meta name="description" content="Amin Hamidi. Electrical Engineering Student at Texas A&M Universtiy. Software Developer, Personal Trainer, and Entrepreneur">
-        <title>Amin Hamidi</title>
-        <link rel="canonical" href="https://aminhamidi.com/index.html"/>
-        <link rel="stylesheet" type="text/css" href="KC-stylesheet.css">
-        <link href="https://fonts.googleapis.com/css?family=Questrial|Libre+Baskerville|Montserrat|Overpass|Quicksand&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="Images/Aminlogo.png" type="image/x-icon" /><!--Favicon at the top of browser tab-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://kit.fontawesome.com/1f156684a3.js" crossorigin="anonymous"></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="PD6ltglDmD-CbK2CDMeLQSeopM4dk_XNwdO3dWY8C2M" />
+    <meta name="keywords" content="Amin Hamidi, Amin, Aminreza, Hamiditabar, Cybersecurity, AI, Software Developer">
+    <meta name="description" content="Amin Hamidi. Cybersecurity Professional, AI enthusiast, khoresh connoisseur.">
+    <title>Amin Hamidi</title>
+    <link rel="canonical" href="https://aminhamidi.com/" />
 
-    <body>
-        <section id="amin_main" class="intro_image">
-            <div id="filter">
-                <header id="home-head">
-                    
-                    <!--Desktop Navigation Bar-->
-                    
-                    <div class="container statement typing">
-                        <h1>Amin Reza</h1>
-                        <h1 id="typing-animation"><span class="typed-text"></span><span class="TypeCursor">&nbsp;</span></h1>
-                    </div>
-                </header>
-            </div>
-        </section>
+    <!-- Open Graph -->
+    <meta property="og:title" content="Amin Reza" />
+    <meta property="og:description" content="Cybersecurity Professional, AI enthusiast, khoresh connoisseur." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://aminhamidi.com/" />
+    <meta property="og:image" content="https://aminhamidi.com/Images/Aminlogo.png" />
 
-        <!-- Beginning of Main Body content -->
-                        
-            <!-- <section id="idoit">
-                <div class="row">
-                    <div class="contents">
-                        <h1>A bit about my skillset</h1>
-                        <div class="threecol">
-                            <div>
-                                <h2>iOS Development</h2>
-                                <p>Working as a software developer for a machine learning research lab at Texas A&M University. Building iOS and watchOS applications to collect, and process data.</p>
-                            </div>
-                            <div>
-                                <h2>Design</h2>
-                                <p>Digital design projects including graphic design, front end development, and video making. Check out some of my video projects under my projects.</p>
-                            </div>
-                            <div>
-                                <h2>Teaching</h2>
-                                <p>I have worked as a personal trainer since the beginning of college, and have taught at meetings, and a fitness conference before.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-        </main>
-        <footer>
-            <div class="row">
-                <div class="contents">
-                        <h1>Why not follow me on Instagram?</h1>
-                        <p id="soc-intro">You know you want to</p>
-                        <!-- Later will include icons to each platform, will need to use a flexbox -->
-                        <div id="socials">
-                            <a href="https://www.instagram.com/knowhataamin/"><i class="fab fa-instagram fa-2x"></i></a>
-                        </div>
-                        <h5>© 2020 Amin Hamidi. All rights reserved. <a href="sitemap.xml">Sitemap</a></h5>                        
-                </div>
-            </div>
-        </footer>
-    
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Amin Reza" />
+    <meta name="twitter:description" content="Cybersecurity Professional, AI enthusiast, khoresh connoisseur." />
+    <meta name="twitter:image" content="https://aminhamidi.com/Images/Aminlogo.png" />
+
+    <link rel="shortcut icon" href="Images/Aminlogo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1f156684a3.js" crossorigin="anonymous"></script>
+
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #0a0a0a;
+            color: #fafafa;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            max-width: 720px;
+            width: 100%;
+        }
+
+        .hero-image {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 2.5rem;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards;
+        }
+
+        .name {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: 1rem;
+            opacity: 0;
+            animation: fadeUp 0.8s ease 0.15s forwards;
+        }
+
+        .tagline {
+            font-size: clamp(0.95rem, 2vw, 1.15rem);
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.6);
+            line-height: 1.6;
+            margin-bottom: 2.5rem;
+            opacity: 0;
+            animation: fadeUp 0.8s ease 0.3s forwards;
+        }
+
+        .divider {
+            width: 40px;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.15);
+            margin-bottom: 2.5rem;
+            opacity: 0;
+            animation: fadeUp 0.8s ease 0.45s forwards;
+        }
+
+        .brewing {
+            font-size: clamp(0.85rem, 1.5vw, 1rem);
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.35);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-bottom: 3rem;
+            opacity: 0;
+            animation: fadeUp 0.8s ease 0.6s forwards;
+        }
+
+        .socials {
+            display: flex;
+            gap: 1.5rem;
+            opacity: 0;
+            animation: fadeUp 0.8s ease 0.75s forwards;
+        }
+
+        .socials a {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 1.25rem;
+            transition: color 0.3s ease, transform 0.3s ease;
+            text-decoration: none;
+        }
+
+        .socials a:hover {
+            color: #fafafa;
+            transform: translateY(-2px);
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
             }
         }
-    </script>
 
-    <!--JavaScript Typing Animation Script-->
-    <script>
-        const TypingText = document.querySelector(".typed-text");
-        const AutoTyping = document.querySelector(".TypeCursor");
-        
-        const textArray = ["Serial chiller", "Lift heavy", "Eat good", "We'll be right back"];
-        const typingDelay = 200;
-        const erasingDelay = 100;
-        const newTextDelay = 2000; 
-        let textArrayIndex = 0;
-        let charIndex = 0;
-        
-        function type() {
-        if (charIndex < textArray[textArrayIndex].length) {
-            if(!AutoTyping.classList.contains("typing")) AutoTyping.classList.add("typing");
-            TypingText.textContent += textArray[textArrayIndex].charAt(charIndex);
-            charIndex++;
-            setTimeout(type, typingDelay);
-        } 
-        else {
-            AutoTyping.classList.remove("typing");
-            setTimeout(erase, newTextDelay);
+        @media (max-width: 480px) {
+            .hero-image {
+                width: 120px;
+                height: 120px;
+                margin-bottom: 2rem;
+            }
+
+            .container {
+                padding: 1.5rem;
+            }
         }
-        }
-        
-        function erase() {
-            if (charIndex > 0) {
-            if(!AutoTyping.classList.contains("typing")) AutoTyping.classList.add("typing");
-            TypingText.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
-            charIndex--;
-            setTimeout(erase, erasingDelay);
-        } 
-        else {
-            AutoTyping.classList.remove("typing");
-            textArrayIndex++;
-            if(textArrayIndex>=textArray.length) textArrayIndex=0;
-            setTimeout(type, typingDelay + 1100);
-        }
-        }
-        
-        document.addEventListener("DOMContentLoaded", function() { 
-        if(textArray.length) setTimeout(type, newTextDelay + 250);
-        });
-    </script>
-    </body>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Images/iOSdevelop.jpg" alt="Amin Hamidi" class="hero-image" />
+        <h1 class="name">Amin Reza</h1>
+        <p class="tagline">Cybersecurity Professional, AI enthusiast, khoresh connoisseur.</p>
+        <div class="divider"></div>
+        <p class="brewing">Something is brewing...</p>
+        <div class="socials">
+            <a href="https://www.instagram.com/knowhataamin/" rel="noopener noreferrer" target="_blank" aria-label="Follow Amin on Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/amin-hamidi-a02650157/" rel="noopener noreferrer" target="_blank" aria-label="Connect with Amin on LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </div>
+</body>
 </html>
